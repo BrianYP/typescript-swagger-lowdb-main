@@ -1,0 +1,28 @@
+GET http://localhost:3000/tasks
+
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+  "name": "Necesito crear un sitio web",
+  "description": "Utilizando Node Js"
+}
+
+###
+GET http://localhost:3000/tasks/47kxneFSvWW3The6L4Klm
+
+###
+DELETE http://localhost:3000/tasks/77MnBn6eXM6Jndj6VQ9OH
+
+###
+PUT http://localhost:3000/tasks/Eee5GpushUNhGXTYuj2cW
+Content-Type: application/json
+
+{
+  "name": "Mi primera Tarea",
+  "description": "Probando el lowdb"
+}
+
+###
+GET http://localhost:3000/tasks/count
